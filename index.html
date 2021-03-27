@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+
+
+
+    </head>
+    <body>
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#programming">Programming</a></li>
+                <li class="topnav-right"><a href="#contact">Contact</a></li>
+                <li class="topnav-right"><a href="#about">About</a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropdownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="flexbox-container">
+            <div class="flexbox-item flexbox-item-1">
+                <img class="headshot" src="./photos/germany_small.png" alt="">
+                <div class="headshot-desc">
+                    <p class="name">Aaron Kelley</p>
+                    <p>Master's Student</p>
+                    <a href="https://www.unam.mx/">National Autonomous University of Mexico</a>
+                    <a href="http://www.posgrado.unam.mx/matematicas/en/inicio"> Institute of Mathematics</a>
+                </div>
+                <div class="social-media-icons">
+                    <i >
+                        <img class="icon" src="./icons/icons8-github-50.png" alt="">
+                    </i>
+                    <i >
+                        <img class="icon" src="./icons/icons8-linkedin-50.png" alt="">
+                    </i>
+                    <i >
+                        <img class="icon" src="./icons/icons8-google-scholar-50.png" alt="">
+                    </i>
+                    
+                </div>
+            </div>
+            <div class="flexbox-item flexbox-item-2">
+                <div class="subitem-1">
+                    <h1 class="about-header">About Me</h1>
+                    <p class="about"> My name is Aaron Kelley and I am in my second semester of my master's degree at the Institute of Mathematics of the National Autonomous University of Mexico. My master's project focuses on topological analyses of hypergraphs. While my current research is centered around coexistence in multispecies systems, I am interested in applying this in other contexts as well. Before starting my master's degree, I gained some experience in computational neuroscience to which I am interested in returning to at some point in my scientific career. Additionaly, I am interested in continuing my studies with a PhD after my master's.</p>
+                </div>
+                <div class="subitem-2">
+                    <div class="interests">
+                        <h1>Interests</h1>
+                        <ul>
+                            <li>test</li>
+                            <li>test</li>
+                            <li>test</li>
+                            <li>test</li>
+                        </ul>
+                    </div>
+                    <div class="education">
+                        <h1>Education</h1>
+                        <ul>
+                            <li>test</li>
+                            <li>test</li>
+                            <li>test</li>
+                            <li>test</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- <div class="container home" id="home-gradient">
+            <div class="row">
+                <div class="col-4">
+                    <div class="leftSide-col">
+                        <img class="headshot" src="./photos/germany_small.png" alt="">
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="rightSide-col maintext">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <h1>Interests</h1>
+                </div>
+                <div class="col-4">
+                    <h1>Education</h1>
+                </div>
+            </div>
+        </div> -->
+
+
+
+
+
+
+
+        <script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropdownClick");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav"
+                }
+            }
+        </script>
+    </body>
+</html>
