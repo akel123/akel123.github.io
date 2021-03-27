@@ -10,20 +10,22 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    /* background: linear-gradient(90deg, rgba(21,21,22,0.7717869718309859) 9%, rgba(97,97,106,1) 77%); */
+    background-color: rgb(41, 39, 39);
+    color: #d4d4d4;
+}
+
+a {
+    color: #87b9bb;
+}
+
+a:hover {
+    opacity: 0.5;
 }
 
 
-.container {
-    width: 100%;
-    margin: auto;
-    padding-top: 4%;
-    padding-bottom: 4%;
+h1 {
+    color: whitesmoke;
 }
-
-
-
-
 
 
 
@@ -36,7 +38,7 @@ nav {
 }
 
 nav ul {
-    background-color: #eee;
+    background-color: rgb(134, 185, 187);
     overflow: hidden;
     margin: 0;
     padding: 0; 
@@ -58,12 +60,12 @@ ul.topnav li a {
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
-    color: #666;
+    color: rgb(41, 39, 39);
 }
 
 ul.topnav li a:hover {
-    background-color: #0080ff;
-    color: #fff
+    background-color: rgb(90, 138, 139);
+    color: whitesmoke
 }
 
 ul.topnav li.dropdownIcon {
@@ -123,33 +125,45 @@ ul.topnav li.dropdownIcon {
 .headshot-desc p.name {
     padding: 0;
     margin: 0;
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: whitesmoke;
 }
 
-.headshot-desc p {
-    margin: 5px;
-    font-size: 20px;
+.headshot-desc p.position {
+    margin: 10px;
+    font-size: 28px;
 }
 
 .headshot-desc a {
     display: block;
     text-decoration: none;
     padding: 0;
-    margin: 5px;
-    font-size: 20px;
+    margin: 15px;
+    font-size: 18px;
 }
 
-i img.icon {
+i svg.icon {
     width: 50px;
     height: 50px;
     padding: 5px;
     margin: 0;
+    fill: #87b9bb;
+}
+
+i svg.icon:hover {
+    opacity: 0.5;
 }
 
 .about {
     font-size: 20px;
     line-height: 27px;
+}
+
+.interests li, .education li{
+    padding: 10px;
+    font-size: 20px;
 }
 
 
@@ -194,10 +208,37 @@ i img.icon {
     }
     .flexbox-item-2 {
         width: 100%;
+        margin: 0;
     }
-    .about {
+
+    .subitem-1 {
         padding: 20px;
+        text-align:left;
+        padding: 0 20px 20px 20px;
     }
+
+    .subitem-2 {
+        text-align:left;
+        display: block;
+    }
+
+    .subitem-1 h1 {
+        margin: 0 ;
+    }
+
+    .interests {
+        padding: 0;
+        margin: 0;
+    }
+
+    .education {
+        padding: 0;
+        margin: 0;
+    }
+    /* .about, .about-header {
+        padding: 40px;
+    } */
+
 }
 
 
