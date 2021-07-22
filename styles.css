@@ -191,7 +191,7 @@ i svg.icon:hover {
 
 h1.bubblehead {
     /* background-color: rgba(136, 136, 136, 0.5); */
-    display: inline-block;
+    /* display: inline-block; */
     /* border-radius: 5px; */
     padding: 10px;
     border-bottom: 3px solid rgb(87, 87, 87);
