@@ -16,6 +16,7 @@ body {
 
 a {
     color: #87b9bb;
+    text-decoration: none;
 }
 
 a:hover {
@@ -25,6 +26,11 @@ a:hover {
 
 h1 {
     color: whitesmoke;
+    padding: 0 20px 0 20px;
+}
+
+p {
+    padding: 0 20px 0 20px;
 }
 
 
@@ -170,6 +176,10 @@ i svg.icon:hover {
 .interests li, .education li{
     padding: 10px;
     font-size: 20px;
+}
+
+.list {
+    list-style: none;
 }
 
 

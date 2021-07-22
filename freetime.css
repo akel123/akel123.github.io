@@ -1,0 +1,28 @@
+table, th, td {
+    /* border: 1px solid black; */
+    /* border-collapse: collapse;  */
+    /* width:80%; */
+    padding: 10px;
+  }
+th, td {
+    padding: 5px;
+    text-align: center; 
+    width: 1%;  
+    /* border: 1px solid black; */
+  }
+tr {
+    border: 1px solid black;
+    
+}
+th {
+    font-size: 20px;
+    /* border: none */
+}
+td.left {
+    text-align: left;
+    /* border: none */
+}
+
+p.detail {
+  width: 45%;
+}
