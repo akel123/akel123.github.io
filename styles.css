@@ -6,12 +6,13 @@ footer {
 }
 
 body {
-    line-height: 1;
+    line-height: 1.5;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     background-color: rgb(41, 39, 39);
     color: #d4d4d4;
+    font-size: 16px;
 }
 
 a {
@@ -25,13 +26,11 @@ a:hover {
 
 
 h1 {
+    padding: 0;
+    margin: 0;
     color: whitesmoke;
-    padding: 0 20px 0 20px;
 }
 
-p {
-    padding: 0 20px 0 20px;
-}
 
 
 
@@ -180,6 +179,24 @@ i svg.icon:hover {
 
 .list {
     list-style: none;
+}
+
+.bubble {
+    background-color: rgba(136, 136, 136, 0.3);
+    /* background-color: rgba(135, 185, 187, 0.3); */
+    border-radius: 10px;
+    margin: 20px 40px 0 20px;
+    padding: 10px;
+}
+
+h1.bubblehead {
+    background-color: rgba(136, 136, 136, 0.5);
+    border-radius: 10px;
+    padding: 10px
+  }
+
+.container {
+    padding: 20px 20px 0;
 }
 
 
