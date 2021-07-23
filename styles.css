@@ -279,6 +279,9 @@ h1.bubblehead {
     .bubble {
         margin: 20px 20px 0 20px;
     }
+    .about-header {
+        padding-top: 20px;
+    }
 
 }
 
